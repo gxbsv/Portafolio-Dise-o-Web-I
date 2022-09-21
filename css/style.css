@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+:root{
+	--color-negro:#000;
+	--color-texto:#212529;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: var(--color-texto);
+}
+header{
+    background-color: #aebfcb;
+}
+.section{
+	padding:50px 0;
+	min-height:;
+}
+
+.portafolio-section{
+	padding: ;
+	background-color: #e5cdc9;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #aebfcb !important;
+}
+
+.titulo{
+	font-family: 'Nunito', sans-serif;
+	text-align:center;
+	padding: 50px;
+	
+}
+
+.titulo-T{
+	font-family: 'Nunito', sans-serif;
+	text-align:center;
+	padding: 50px;
+	color: #FFFFFF;
+}
+
+.parrafo{
+	font-family: 'IBM Plex Serif', serif;
+	text-align: center;
+}
+
+.parrafo-foto{
+	font-family: 'IBM Plex Serif', serif;
+	text-align: center;
+	color: #000000;
+}
+.parrafo-cr{
+	font-family: 'IBM Plex Serif', serif;
+	text-align: center;
+	color: #000;
+}
+
+.subtitulo{
+	font-family: 'Nunito', sans-serif;
+	font-size: 50px;
+}
+
+.subtitulo-cr{
+	font-family: 'Nunito', sans-serif;
+	font-size: 50px;
+	color: #000;
+}
+
+.aboutme{
+	
+	background-color: #c9b1d6;
+}
+
+.servicios{
+	padding: 90px;
+	background-color: #b4c3b8;
+	text-align: center;
+}
+
+.contact{
+	padding: 150px;
+	background-color: #c9b1d6;
+}
+
+.section{
+	padding:50px 0;
+	min-height:800px;
+}
+
+#servicios .img-fluid{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.icon{
+	font-size: 20px;
+}
+
+.aboutme{
+	background-image: url("../img/ïmagen-abt-me.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 120px;
+	
+}
+
+.contact{
+	padding: 50px;
+}
+
+.footer{
+	padding: 20px;
+}
+
+.btn-outline-primary {
+	text-align: center;
+}
